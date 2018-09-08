@@ -5,7 +5,7 @@ public class linearsearch {
         int w, m, search = 0, array[];
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Ilosc elementow tablicy");
+        System.out.println("Ilosc elementow ssstablicy");
         m = in.nextInt();
         array = new int[m];
 
