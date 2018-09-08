@@ -6,11 +6,11 @@ public class LinearSearch2 {
             int w, m, search = 0, array[];
 
             Scanner in = new Scanner(System.in);
-            System.out.println("Ilosc elementow ssstablicysss");
+            System.out.println("Ilosc elementow tablicy");
             m = in.nextInt();
             array = new int[m];
 
-            System.out.println("Podaj wartosci " + m + " elemtow tablucy");
+            System.out.println("Podaj wartosci " + m + " elementow tablicy");
 
             for (w = 0; w < m; w++)
                 array[w] = in.nextInt();
@@ -25,7 +25,7 @@ public class LinearSearch2 {
                 }
             }
             if (w == m)
-                System.out.println(search + " nie znaleziono elentu tablicy.");
+                System.out.println(search + " nie znaleziono elementu tablicy.");
         }
     }
 
